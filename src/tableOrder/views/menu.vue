@@ -7,7 +7,12 @@
                 <van-tabs>
                     <van-tab v-for="index in 8" :title="'测试标签 ' + index" v-bind:key="index">
                         <van-grid :column-num="3">
-                            <van-grid-item v-for="value in 6" :key="value" icon="photo-o" text="文字" />
+                            <van-grid-item icon="photo-o" text="文字" />
+                            <van-grid-item icon="photo-o" text="文字" />
+                            <van-grid-item icon="photo-o" text="文字" />
+                            <van-grid-item icon="photo-o" text="文字" />
+                            <van-grid-item icon="photo-o" text="文字" />
+                            <van-grid-item icon="photo-o" text="文字" />
                         </van-grid>
                     </van-tab>
                 </van-tabs>
